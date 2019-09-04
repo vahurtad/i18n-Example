@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\van\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\van\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\van\AppData\Local\Microsoft\WindowsApps;C:\Users\van\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\van\AppData\Local\Yarn\bin;C:\Users\van\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\van\Desktop\Projects\i18n-dinosaurs-master\package.json: Unexpected token } in JSON at position 1041
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "i18n-dinosaurs",
+    "version": "1.0.0",
+    "description": "Demo to i18n a Next.js app",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start -p $PORT"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OliWalker/i18n-dinosaurs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/OliWalker/i18n-dinosaurs/issues"
+    },
+    "homepage": "https://github.com/OliWalker/i18n-dinosaurs#readme",
+    "dependencies": {
+      "@yolkai/next-routes": "^3.0.0",
+      "@zeit/next-css": "^1.0.1",
+      "express": "4.17.1",
+      "next": "8.1.0",
+      "next-i18next": "0.44.0",
+      "react": "16.8.6",
+      "react-dom": "16.8.6",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb": "^17.0.0",
+      "eslint-config-prettier": "^3.1.0",
+      "eslint-parallel": "^0.3.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-prettier": "^3.0.0",
+      "eslint-plugin-react": "^7.8.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
